@@ -1,6 +1,6 @@
 <!doctype html>
 <html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>焼きぷりんちゃん🎶のアプリ</title>
+<title>焼きぷりんちゃん｜アプリ開発</title>
 <meta name="description" content="焼きぷりんちゃんが開発しているスマートフォンアプリの一覧です。">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@500;700;900&display=swap">
@@ -12,65 +12,55 @@ h1,h3{word-break:keep-all;overflow-wrap:anywhere}
 .app{display:flex;align-items:center;gap:14px;min-width:0}
 .ic{width:64px;height:64px;border-radius:16px;flex:none;object-fit:cover}
 .tx{flex:1;min-width:0}.tx h3{margin:0;font-size:17px;line-height:1.4}
-.url{display:block;font-size:12px;line-height:1.5;overflow-wrap:anywhere;word-break:normal;text-decoration:none;margin-top:3px}
+.url{display:block;font-weight:400;font-size:11.5px;line-height:1.5;overflow-wrap:anywhere;word-break:normal;text-decoration:none;margin-top:3px}
 .go{flex:none;width:40px;height:40px;border-radius:50%;display:grid;place-items:center;text-decoration:none;font-size:14px}
-.soon{display:inline-block;font-size:12px;font-weight:700;padding:1px 10px;border-radius:999px;margin-top:4px}
-.contact{margin-top:36px}.contact h2{font-size:18px;margin:0 0 6px}.contact p{margin:4px 0;font-size:14.5px}.mail{font-weight:700;overflow-wrap:anywhere}
+.soon{display:inline-block;font-size:12px;font-weight:400;padding:1px 10px;border-radius:999px;margin-top:4px}
+.contact{margin-top:36px}.contact h2{font-size:18px;margin:0 0 6px}.contact p{margin:4px 0;font-size:14.5px}.mail{font-weight:400;overflow-wrap:anywhere}
 footer{margin-top:40px;font-size:13px;padding-top:14px}
 @media (min-width:700px){.apps{grid-template-columns:1fr 1fr}}
 /* 案B：ピンク地×ブラック（ポップ） */
 :root{--bg:#FFD6E7;--bg2:#FFC2DB;--card:#111;--ink:#111;--sub:#5A3747;--pink:#FF3D8B;--line:#111}
 body{background:var(--bg) radial-gradient(#ffb3d2 1.6px,transparent 1.7px) 0 0/18px 18px;color:var(--ink)}
 .hero{background:#111;color:#fff;border-radius:24px;padding:22px 20px 20px;margin-bottom:20px;position:relative;box-shadow:6px 6px 0 var(--pink)}
-.by{margin:0;color:#FF9AC9;font-weight:700;font-size:13px;letter-spacing:.06em}
+.by{margin:0;color:#FF9AC9;font-weight:400;font-size:13px;letter-spacing:.06em}
 h1{font-family:"Dela Gothic One","Zen Maru Gothic",sans-serif;font-weight:400;font-size:clamp(28px,8vw,42px);line-height:1.25;margin:4px 0 2px}
 .lead{margin:0;color:#ffd1e5;font-size:14.5px}
 .app{background:#fff;border:2.5px solid #111;border-radius:18px;padding:10px 12px;box-shadow:4px 4px 0 #111}
 .ic{border:2.5px solid #111}
-.tx h3{font-weight:900}.url{color:#C2185B}
+.tx h3{font-weight:400}.url{color:#C2185B}
 .go{background:var(--pink);color:#fff;border:2.5px solid #111}
 .soon{background:#111;color:#FF9AC9}
-.contact{background:#fff;border:2.5px solid #111;border-radius:18px;padding:14px 16px;box-shadow:4px 4px 0 #111}.contact h2{font-weight:900}.mail{color:#C2185B}
-footer{color:var(--sub);border-top:2px dashed #111}
-:root{--bg:#FFF4E8;--dot:#FFCFE0;--acc:#FF5EA0;--acc2:#FF9AC9;--tx:#111;--card:#fff;--bd:#111;--sub:#6A4A55;--urlc:#C2185B;--shd:#111}
-body{background:var(--bg) radial-gradient(var(--dot) 4px,transparent 4.5px) 0 0/30px 30px;color:var(--tx)}
-@font-face{font-family:"LanobePOP";src:url("assets/lanobepop.woff") format("woff");font-display:swap}
-body,h1,.tx h3,.contact h2,.cheer *,.hero *{font-family:"LanobePOP","Zen Maru Gothic","Hiragino Maru Gothic ProN",sans-serif}
-h1,.tx h3,.contact h2,.cheer h2{font-weight:400}
-.url,.mail,.contact p,.cheer p{font-family:"Zen Maru Gothic","Hiragino Maru Gothic ProN","Hiragino Sans",sans-serif}
-.hero{background:none;box-shadow:none;border-radius:0;padding:6px 2px 4px;color:var(--tx)}
-.hero .nb{display:inline-block;white-space:nowrap}
-.hero .note{font-style:normal;text-shadow:none;-webkit-text-stroke:0;font-size:.8em;vertical-align:.1em;margin-left:.08em}
-.hero .by{display:inline-block;color:var(--tx);font-size:15px;margin:0 0 2px;border-bottom:3px solid var(--tx)}
-.hero h1{margin:0;line-height:1.2;color:var(--tx);font-size:clamp(23px,7.8vw,56px);text-shadow:3px 3px 0 var(--acc),6px 6px 0 var(--bg)}
-.hero .lead{display:inline-block;background:#111;color:#FF9AC9;padding:4px 14px;border-radius:8px;margin-top:10px;font-size:15px;transform:rotate(-1.5deg);box-shadow:3px 3px 0 var(--acc)}
-.app{background:var(--card);border-color:var(--bd);box-shadow:4px 4px 0 var(--shd)}
-.app .ic{border-color:#111}.tx h3{color:#111}.url{color:var(--urlc)}
-.go{background:#FF5EA0;border-color:#111;color:#fff}
-/* 応援よろしくね */
-.cheer{position:relative;margin-top:40px;background:#111;color:#fff;border:3px solid #111;border-radius:30px;padding:30px 20px 24px;text-align:center;box-shadow:6px 6px 0 var(--acc);overflow:visible}
-.cheer .sticker{position:absolute;left:50%;top:-22px;transform:translateX(-50%) rotate(-4deg);background:#FF5EA0;color:#fff;border:3px solid #111;border-radius:999px;padding:3px 18px 1px;font-size:15px;white-space:nowrap;box-shadow:3px 3px 0 #111}
-.cheer h2{margin:6px 0 8px;font-size:clamp(26px,8.4vw,40px);line-height:1.25;color:#fff;text-shadow:3px 3px 0 #FF5EA0}
-.cheer h2 span{display:inline-block;white-space:nowrap}
-.cheer .heart{color:#FF5EA0;text-shadow:none}
-.cheer p{margin:0 auto;max-width:28em;font-size:14.5px;line-height:1.8;color:#FFE3EF}
-.cheer .stars{margin-top:14px;font-size:22px;letter-spacing:.3em;color:#FFD84D;text-shadow:none}
-.cheer .pud{position:absolute;right:-6px;bottom:-14px;font-size:38px;transform:rotate(12deg)}
-.cheer .dot{position:absolute;left:16px;bottom:16px;width:46px;height:46px;background:radial-gradient(circle,#FF5EA0 2.2px,transparent 2.6px) 0 0/9px 9px;opacity:.7;z-index:0;pointer-events:none}
-.cheer h2,.cheer p,.cheer .stars{position:relative;z-index:1}
-.contact{background:var(--card);border:2.5px solid var(--bd);box-shadow:4px 4px 0 var(--shd)}.contact h2,.contact p{color:#111}.mail{color:var(--urlc)}
-footer{color:var(--tx);border-top:2px dashed var(--tx);text-align:center}
+.contact{background:#fff;border:2.5px solid #111;border-radius:18px;padding:14px 16px;box-shadow:4px 4px 0 #111}.contact h2{font-weight:400}.mail{color:#C2185B}
+footer{color:var(--sub);border-top:2px dashed #111}@font-face{font-family:"LanobePOP";src:url("lanobepop.woff") format("woff");font-display:swap}
+body,h1,h3,.by,.lead,.contact h2,.soon,footer{font-family:"LanobePOP","Zen Maru Gothic","Hiragino Maru Gothic ProN",sans-serif}
+h1,h3,.contact h2{font-weight:400}
+.url,.mail,.contact p{font-family:"LanobePOP","Zen Maru Gothic","Hiragino Maru Gothic ProN",sans-serif}
+h1 .nb{display:inline-block;white-space:nowrap}
+h1{font-size:clamp(22px,7vw,42px)}
 footer small{display:block;font-size:11px;opacity:.8;margin-top:2px}
+
+.hero{border:3px solid #111;box-shadow:6px 6px 0 var(--pink),6px 6px 0 3px #111}
+.hero .by{font-size:11.5px;letter-spacing:.16em}
+.hero h1{color:#fff;font-size:clamp(20px,6.6vw,46px);text-shadow:none;line-height:1.2}
+.hero h1 .pk{color:#FF5EA0;text-shadow:3px 3px 0 #fff}
+.hero .lead{line-height:1.6;color:#ffd1e5;border-top:2px dashed #FF5EA0;margin-top:10px;padding-top:8px}
 </style></head>
 <body><div class="wrap">
-<header class="hero"><p class="by">ようこそ！</p><h1><span class="nb">焼きぷりんちゃん<span class="note">🎶</span></span><wbr><span class="nb">のアプリ</span></h1><p class="lead">つくったアプリ、ならべました</p></header>
+<header class="hero"><p class="by">YAKIPURIN-CHAN APPS</p><h1><span class="nb">焼きぷりんちゃんの</span><wbr><span class="nb pk">アプリ🎶</span></h1><p class="lead"><span class="nb">毎日ちょっと楽しくなるアプリを</span><br><span class="nb">ひとりでつくっています</span></p></header>
 <ul class="apps">
-<li class="app"><img class="ic" src="assets/shinrilab.png" alt="" width="64" height="64" loading="lazy"><div class="tx"><h3>心理ラボ</h3><a class="url" href="https://play.google.com/store/apps/details?id=com.yakipurin.shinrilab">play.google.com/<wbr>store/<wbr>apps/<wbr>details?<wbr>id=<wbr>com.<wbr>yakipurin.<wbr>shinrilab</a></div><a class="go" href="https://play.google.com/store/apps/details?id=com.yakipurin.shinrilab" aria-label="心理ラボをGoogle Playで見る">▶</a></li><li class="app"><img class="ic" src="assets/zenbumemo.png" alt="" width="64" height="64" loading="lazy"><div class="tx"><h3>ぜんぶメモ</h3><a class="url" href="https://play.google.com/store/apps/details?id=com.yakipurin.zenbumemo">play.google.com/<wbr>store/<wbr>apps/<wbr>details?<wbr>id=<wbr>com.<wbr>yakipurin.<wbr>zenbumemo</a></div><a class="go" href="https://play.google.com/store/apps/details?id=com.yakipurin.zenbumemo" aria-label="ぜんぶメモをGoogle Playで見る">▶</a></li><li class="app"><img class="ic" src="assets/kanji-jun1.png" alt="" width="64" height="64" loading="lazy"><div class="tx"><h3>かんじてがき<wbr> 準1級</h3><a class="url" href="https://play.google.com/store/apps/details?id=jp.kanjitegaki.jun1">play.google.com/<wbr>store/<wbr>apps/<wbr>details?<wbr>id=<wbr>jp.<wbr>kanjitegaki.<wbr>jun1</a></div><a class="go" href="https://play.google.com/store/apps/details?id=jp.kanjitegaki.jun1" aria-label="かんじてがき 準1級をGoogle Playで見る">▶</a></li><li class="app"><img class="ic" src="assets/kanji-jun2.png" alt="" width="64" height="64" loading="lazy"><div class="tx"><h3>かんじてがき<wbr> 準2級・<wbr>2級</h3><a class="url" href="https://play.google.com/store/apps/details?id=jp.kanjitegaki.jun2">play.google.com/<wbr>store/<wbr>apps/<wbr>details?<wbr>id=<wbr>jp.<wbr>kanjitegaki.<wbr>jun2</a></div><a class="go" href="https://play.google.com/store/apps/details?id=jp.kanjitegaki.jun2" aria-label="かんじてがき 準2級・2級をGoogle Playで見る">▶</a></li><li class="app"><img class="ic" src="assets/kokoronochizu.png" alt="" width="64" height="64" loading="lazy"><div class="tx"><h3>ココロの地図</h3><a class="url" href="https://play.google.com/store/apps/details?id=com.yakipurin.kokoronochizu">play.google.com/<wbr>store/<wbr>apps/<wbr>details?<wbr>id=<wbr>com.<wbr>yakipurin.<wbr>kokoronochizu</a></div><a class="go" href="https://play.google.com/store/apps/details?id=com.yakipurin.kokoronochizu" aria-label="ココロの地図をGoogle Playで見る">▶</a></li><li class="app"><img class="ic" src="assets/bodymake.png" alt="" width="64" height="64" loading="lazy"><div class="tx"><h3>ぼでぃー♪<wbr>メイク</h3><a class="url" href="https://play.google.com/store/apps/details?id=com.yakipurin.bodymake">play.google.com/<wbr>store/<wbr>apps/<wbr>details?<wbr>id=<wbr>com.<wbr>yakipurin.<wbr>bodymake</a></div><a class="go" href="https://play.google.com/store/apps/details?id=com.yakipurin.bodymake" aria-label="ぼでぃー♪メイクをGoogle Playで見る">▶</a></li><li class="app"><img class="ic" src="assets/lumiere.png" alt="" width="64" height="64" loading="lazy"><div class="tx"><h3>Lumière</h3><a class="url" href="https://play.google.com/store/apps/details?id=com.yakipurin.lumiere">play.google.com/<wbr>store/<wbr>apps/<wbr>details?<wbr>id=<wbr>com.<wbr>yakipurin.<wbr>lumiere</a></div><a class="go" href="https://play.google.com/store/apps/details?id=com.yakipurin.lumiere" aria-label="LumièreをGoogle Playで見る">▶</a></li><li class="app"><img class="ic" src="assets/kiatsu.png" alt="" width="64" height="64" loading="lazy"><div class="tx"><h3>気圧びより</h3><a class="url" href="https://play.google.com/store/apps/details?id=com.yakipurin.kiatsu">play.google.com/<wbr>store/<wbr>apps/<wbr>details?<wbr>id=<wbr>com.<wbr>yakipurin.<wbr>kiatsu</a></div><a class="go" href="https://play.google.com/store/apps/details?id=com.yakipurin.kiatsu" aria-label="気圧びよりをGoogle Playで見る">▶</a></li><li class="app"><img class="ic" src="assets/kamemushi.png" alt="" width="64" height="64" loading="lazy"><div class="tx"><h3>カメムシ<wbr>よほう</h3><a class="url" href="https://play.google.com/store/apps/details?id=com.yakipurin.kamemushi">play.google.com/<wbr>store/<wbr>apps/<wbr>details?<wbr>id=<wbr>com.<wbr>yakipurin.<wbr>kamemushi</a></div><a class="go" href="https://play.google.com/store/apps/details?id=com.yakipurin.kamemushi" aria-label="カメムシよほうをGoogle Playで見る">▶</a></li><li class="app"><img class="ic" src="assets/hatake.png" alt="" width="64" height="64" loading="lazy"><div class="tx"><h3>はたけ管理</h3><a class="url" href="https://play.google.com/store/apps/details?id=com.yakipurin.hatake">play.google.com/<wbr>store/<wbr>apps/<wbr>details?<wbr>id=<wbr>com.<wbr>yakipurin.<wbr>hatake</a></div><a class="go" href="https://play.google.com/store/apps/details?id=com.yakipurin.hatake" aria-label="はたけ管理をGoogle Playで見る">▶</a></li><li class="app"><img class="ic" src="assets/saigai.png" alt="" width="64" height="64" loading="lazy"><div class="tx"><h3>完全災害<wbr>マニュアル</h3><a class="url" href="https://play.google.com/store/apps/details?id=com.yakipurin.saigai">play.google.com/<wbr>store/<wbr>apps/<wbr>details?<wbr>id=<wbr>com.<wbr>yakipurin.<wbr>saigai</a></div><a class="go" href="https://play.google.com/store/apps/details?id=com.yakipurin.saigai" aria-label="完全災害マニュアルをGoogle Playで見る">▶</a></li><li class="app"><img class="ic" src="assets/tetsugaku.png" alt="" width="64" height="64" loading="lazy"><div class="tx"><h3>哲学者の部屋</h3><a class="url" href="https://play.google.com/store/apps/details?id=com.yakipurin.tetsugaku">play.google.com/<wbr>store/<wbr>apps/<wbr>details?<wbr>id=<wbr>com.<wbr>yakipurin.<wbr>tetsugaku</a></div><a class="go" href="https://play.google.com/store/apps/details?id=com.yakipurin.tetsugaku" aria-label="哲学者の部屋をGoogle Playで見る">▶</a></li>
+<li class="app"><img class="ic" src="shinrilab.png" alt="" width="64" height="64" loading="lazy"><div class="tx"><h3>心理ラボ</h3><a class="url" href="https://play.google.com/store/apps/details?id=com.yakipurin.shinrilab">play.google.com/<wbr>store/<wbr>apps/<wbr>details?<wbr>id=<wbr>com.yakipurin.shinrilab</a></div><a class="go" href="https://play.google.com/store/apps/details?id=com.yakipurin.shinrilab" aria-label="心理ラボをGoogle Playで見る">▶</a></li>
+<li class="app"><img class="ic" src="zenbumemo.png" alt="" width="64" height="64" loading="lazy"><div class="tx"><h3>ぜんぶメモ</h3><a class="url" href="https://play.google.com/store/apps/details?id=com.yakipurin.zenbumemo">play.google.com/<wbr>store/<wbr>apps/<wbr>details?<wbr>id=<wbr>com.yakipurin.zenbumemo</a></div><a class="go" href="https://play.google.com/store/apps/details?id=com.yakipurin.zenbumemo" aria-label="ぜんぶメモをGoogle Playで見る">▶</a></li>
+<li class="app"><img class="ic" src="kanji-jun1.png" alt="" width="64" height="64" loading="lazy"><div class="tx"><h3>かんじてがき<wbr> 準1級</h3><a class="url" href="https://play.google.com/store/apps/details?id=jp.kanjitegaki.jun1">play.google.com/<wbr>store/<wbr>apps/<wbr>details?<wbr>id=<wbr>jp.kanjitegaki.jun1</a></div><a class="go" href="https://play.google.com/store/apps/details?id=jp.kanjitegaki.jun1" aria-label="かんじてがき 準1級をGoogle Playで見る">▶</a></li>
+<li class="app"><img class="ic" src="kanji-jun2.png" alt="" width="64" height="64" loading="lazy"><div class="tx"><h3>かんじてがき<wbr> 準2級・<wbr>2級</h3><a class="url" href="https://play.google.com/store/apps/details?id=jp.kanjitegaki.jun2">play.google.com/<wbr>store/<wbr>apps/<wbr>details?<wbr>id=<wbr>jp.kanjitegaki.jun2</a></div><a class="go" href="https://play.google.com/store/apps/details?id=jp.kanjitegaki.jun2" aria-label="かんじてがき 準2級・2級をGoogle Playで見る">▶</a></li>
+<li class="app"><img class="ic" src="kokoronochizu.png" alt="" width="64" height="64" loading="lazy"><div class="tx"><h3>ココロの地図</h3><a class="url" href="https://play.google.com/store/apps/details?id=com.yakipurin.kokoronochizu">play.google.com/<wbr>store/<wbr>apps/<wbr>details?<wbr>id=<wbr>com.yakipurin.kokoronochizu</a></div><a class="go" href="https://play.google.com/store/apps/details?id=com.yakipurin.kokoronochizu" aria-label="ココロの地図をGoogle Playで見る">▶</a></li>
+<li class="app"><img class="ic" src="bodymake.png" alt="" width="64" height="64" loading="lazy"><div class="tx"><h3>ぼでぃー♪<wbr>メイク</h3><a class="url" href="https://play.google.com/store/apps/details?id=com.yakipurin.bodymake">play.google.com/<wbr>store/<wbr>apps/<wbr>details?<wbr>id=<wbr>com.yakipurin.bodymake</a></div><a class="go" href="https://play.google.com/store/apps/details?id=com.yakipurin.bodymake" aria-label="ぼでぃー♪メイクをGoogle Playで見る">▶</a></li>
+<li class="app"><img class="ic" src="lumiere.png" alt="" width="64" height="64" loading="lazy"><div class="tx"><h3>Lumière</h3><a class="url" href="https://play.google.com/store/apps/details?id=com.yakipurin.lumiere">play.google.com/<wbr>store/<wbr>apps/<wbr>details?<wbr>id=<wbr>com.yakipurin.lumiere</a></div><a class="go" href="https://play.google.com/store/apps/details?id=com.yakipurin.lumiere" aria-label="LumièreをGoogle Playで見る">▶</a></li>
+<li class="app"><img class="ic" src="kiatsu.png" alt="" width="64" height="64" loading="lazy"><div class="tx"><h3>気圧びより</h3><a class="url" href="https://play.google.com/store/apps/details?id=com.yakipurin.kiatsu">play.google.com/<wbr>store/<wbr>apps/<wbr>details?<wbr>id=<wbr>com.yakipurin.kiatsu</a></div><a class="go" href="https://play.google.com/store/apps/details?id=com.yakipurin.kiatsu" aria-label="気圧びよりをGoogle Playで見る">▶</a></li>
+<li class="app"><img class="ic" src="kamemushi.png" alt="" width="64" height="64" loading="lazy"><div class="tx"><h3>カメムシ<wbr>よほう</h3><a class="url" href="https://play.google.com/store/apps/details?id=com.yakipurin.kamemushi">play.google.com/<wbr>store/<wbr>apps/<wbr>details?<wbr>id=<wbr>com.yakipurin.kamemushi</a></div><a class="go" href="https://play.google.com/store/apps/details?id=com.yakipurin.kamemushi" aria-label="カメムシよほうをGoogle Playで見る">▶</a></li>
+<li class="app"><img class="ic" src="hatake.png" alt="" width="64" height="64" loading="lazy"><div class="tx"><h3>はたけ管理</h3><a class="url" href="https://play.google.com/store/apps/details?id=com.yakipurin.hatake">play.google.com/<wbr>store/<wbr>apps/<wbr>details?<wbr>id=<wbr>com.yakipurin.hatake</a></div><a class="go" href="https://play.google.com/store/apps/details?id=com.yakipurin.hatake" aria-label="はたけ管理をGoogle Playで見る">▶</a></li>
+<li class="app"><img class="ic" src="saigai.png" alt="" width="64" height="64" loading="lazy"><div class="tx"><h3>完全災害<wbr>マニュアル</h3><a class="url" href="https://play.google.com/store/apps/details?id=com.yakipurin.saigai">play.google.com/<wbr>store/<wbr>apps/<wbr>details?<wbr>id=<wbr>com.<wbr>yakipurin.<wbr>saigai</a></div><a class="go" href="https://play.google.com/store/apps/details?id=com.yakipurin.saigai" aria-label="完全災害マニュアルをGoogle Playで見る">▶</a></li>
+<li class="app"><img class="ic" src="tetsugaku.png" alt="" width="64" height="64" loading="lazy"><div class="tx"><h3>哲学者の部屋</h3><a class="url" href="https://play.google.com/store/apps/details?id=com.yakipurin.tetsugaku">play.google.com/<wbr>store/<wbr>apps/<wbr>details?<wbr>id=<wbr>com.<wbr>yakipurin.<wbr>tetsugaku</a></div><a class="go" href="https://play.google.com/store/apps/details?id=com.yakipurin.tetsugaku" aria-label="哲学者の部屋をGoogle Playで見る">▶</a></li>
 </ul>
-<section class="cheer"><span class="dot" aria-hidden="true"></span><span class="sticker">ありがとう！</span>
-<h2><span>応援</span><span>よろしくね</span><span class="heart">♥</span></h2>
-<p>ひとりでコツコツつくっています。すきなアプリが見つかったら、Google Playで★をつけてもらえると、とってもうれしいです。</p>
-<div class="stars" aria-hidden="true">★★★★★</div><span class="pud" aria-hidden="true">🍮</span></section>
 <section class="contact"><h2>お問い合わせ</h2><p>アプリについてのご質問・不具合のご報告は、次のメールアドレスまでお送りください。</p><p><a class="mail" href="mailto:francepan10299@gmail.com">francepan10299@gmail.com</a></p></section>
 <footer>© 焼きぷりんちゃん<small>フォント：ラノベPOP V2（フロップデザイン）</small></footer>
 </div></body></html>
